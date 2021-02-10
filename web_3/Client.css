@@ -57,9 +57,9 @@ button:hover{
     justify-content: space-around;
 }
 
-#firstResult, #secondResult, #thirdResult{
+#firstResult, #secondResult{
     margin-top: 10px;
-    width: 30%;
+    width: 40%;
     height: 90%;
     background: #eeeeee;
     border-radius: 10px;
