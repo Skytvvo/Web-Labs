@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+.app_box{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+/*SCRIPT BOX*/
+.script_box{
+    margin-top: 10px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login{
+    width: 80%;
+    outline: none;
+    border: 2px solid #b3b3b3;
+    border-radius: 5px;
+    background: #b3b3b3;
+    padding: 10px 20px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+#login:hover{
+    background: #cfcfcf;
+    border: 2px solid #b3b3b3;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.18s;
+}
+
+button:hover{
+    background: #b3b3b3;
+    color: white;
+}
+
+/*RESULT BOX*/
+.result_box{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#firstResult, #secondResult, #thirdResult{
+    margin-top: 10px;
+    width: 30%;
+    height: 90%;
+    background: #eeeeee;
+    border-radius: 10px;
+    border: 3px solid #cfcfcf;
+    padding: 3px 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+}
+
